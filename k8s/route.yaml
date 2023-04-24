@@ -2,12 +2,12 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   labels:
-    app: spring-prod
-  name: spring-prod
+    app: spring
+  name: spring
 spec:
   port:
-    targetPort: 8081-tcp
+    targetPort: 8080-tcp
   to:
     kind: Service
-    name: spring-prod
+    name: spring
     weight: 100
