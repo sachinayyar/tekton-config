@@ -2,23 +2,23 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: spring-prod
-  name: spring-prod
+    app: spring
+  name: spring
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: spring-prod
+      app: spring
   template:
     metadata:
       labels:
-        app: spring-prod
+        app: spring
     spec:
       containers:
         - image: quay.io/sachinayyar/tekton-argocd:sac
           imagePullPolicy: Always
-          name: spring-prod
+          name: spring
           ports:
-            - containerPort: 8081
+            - containerPort: 8080
               protocol: TCP
            
