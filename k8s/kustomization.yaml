@@ -9,6 +9,6 @@ images:
 - digest: sha256:88c01ccff857be9bfceaca429ddc57321de28165a7e7abe8100a1a2e817f3cb2
   name: quay.io/sachinayyar/tekton-argocd:dev
   newName: quay.io/sachinayyar/tekton-argocd:sac
-- digest: sha256:db92ae64aa2249c0840e72c36517844ebabe9ed2672c82aff7797e3511f57fc1
+- digest: sha256:1e1dc7eee01753b7d06a7fdf70811d006a91d2c0cb67488776452577a9e900c7
   name: quay.io/sachinayyar/tekton-argocd:latest
   newName: quay.io/sachinayyar/tekton-argocd:sac
