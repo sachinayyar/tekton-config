@@ -6,6 +6,6 @@ resources:
 - service.yaml
 - namespace.yaml
 images:
-- digest: sha256:850972ef03e7f675ea9e2bfd06988b152a1ea92c13031ad13db3b11cd4fb7355
+- digest: sha256:a8911eb69853217579edb9dbd3cfe236d65cee07f596548147ee3cedcf59560f
   name: quay.io/sachinayyar/tekton-argocd:sac
   newName: quay.io/sachinayyar/tekton-argocd:sac
