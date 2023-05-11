@@ -15,7 +15,7 @@ spec:
         app: spring
     spec:
       containers:
-        - image: quay.io/sachinayyar/tekton-argocd:sac
+        - image: quay.io/sachinayyar/tekton-argocd:test
           imagePullPolicy: Always
           name: spring
           ports:
